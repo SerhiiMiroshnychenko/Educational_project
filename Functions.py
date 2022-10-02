@@ -31,7 +31,7 @@ describe_pet("hamster", "harry")
 describe_pet("dog", "willie")
 describe_pet("donald", "duck")  # варіант помилкового надання аргументів
 describe_pet(pet_name="donald",
-             animal_type="duck")  # виклик функції використовуючі ключьові арнументи (пари " ім'я:значення")
+             animal_type="duck")  # виклик функції використовуючі ключові аргументи (пари " ім'я:значення")
 
 
 # функція з уставним значенням аргументу
@@ -45,7 +45,7 @@ def describe_pet_for_dogs(pet_name,
 
 describe_pet_for_dogs("willie")
 describe_pet_for_dogs("tom", "cat")  # але ми можемо вказати значення аргументу, відмінне від уставного
-describe_pet_for_dogs(animal_type="mouse", pet_name="jerry")  # виклик з ключьовими аргументами
+describe_pet_for_dogs(animal_type="mouse", pet_name="jerry")  # виклик з ключовими аргументами
 
 
 # функція, що повертає просте значення
@@ -59,7 +59,7 @@ musician = get_formatted_name("jimi",
                               "hendrix")  # де musician - змінна яка посилається на значення, що повертає відповідний
 # виклик функції.
 print("\n" + musician)
-print(" \n" + get_formatted_name("jimi", "hendrix"))  # однаразовий вивід значення повернення без зберігання в змінну
+print(" \n" + get_formatted_name("jimi", "hendrix"))  # одноразовий вивід значення повернення без зберігання в змінну
 
 
 # функція з необов'язковим аргументом
@@ -140,7 +140,7 @@ greet_users(usernames)
 
 # Редагування списку всередині функції:
 # Код без використання функцій:
-unprinted_designs = ["phone case", "robot pendart", "dodecahedron"]  # перелік кресоень, які треба роздрукувати
+unprinted_designs = ["phone case", "robot pendart", "dodecahedron"]  # перелік креслень, які треба роздрукувати
 completed_models = []  # перелік опрацьованих моделей
 print()
 while unprinted_designs:  # цикл виконується поки список не порожній (не порожній == True)
@@ -191,15 +191,11 @@ print(unprinted_designs)  # перевіряємо список
 print()
 
 
-# НАПИСАТИ ФУНКЦІЮ ЯКА СОРТУЄ СЛОВА В СПИСКУ ПО ЇХ ДОВЖИНІ
-
-# ЗРОБИТИ ПРОЄКТ З ЗАВДАНЯМИ З МАТЕ?
-
 # передавання довільної кількості аргументів
 def make_pizza(*toppings):
     # ^ зірочка на початку імені параметра *toppings каже Python, що треба створити кортеж toppings та запакувати в
     # нього всі значення, які отримає функція
-    """Скласти список замовленних інгредієнтів."""
+    """Скласти список замовлених інгредієнтів."""
     print(toppings)
 
 
@@ -244,4 +240,4 @@ def build_profile(first, last, **user_info):
 user_profile = build_profile('albert', 'einstein', location='princeton', field='phisics')
 print("\n", user_profile)
 
-"""Для набору не описаних ключьових аргументів часто використовується ім'я параметра **kwargs"""
+"""Для набору не описаних ключових аргументів часто використовується ім'я параметра **kwargs"""
