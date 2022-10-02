@@ -31,7 +31,7 @@ describe_pet("hamster", "harry")
 describe_pet("dog", "willie")
 describe_pet("donald", "duck")  # варіант помилкового надання аргументів
 describe_pet(pet_name="donald",
-             animal_type="duck")  # виклик функції використовуючі ключові аргументи (пари " ім'я:значення")
+             animal_type="duck")  # виклик функції, використовуючі ключові аргументи (пари " ім'я:значення")
 
 
 # функція з уставним значенням аргументу
@@ -59,7 +59,7 @@ musician = get_formatted_name("jimi",
                               "hendrix")  # де musician - змінна яка посилається на значення, що повертає відповідний
 # виклик функції.
 print("\n" + musician)
-print(" \n" + get_formatted_name("jimi", "hendrix"))  # одноразовий вивід значення повернення без зберігання в змінну
+print(" \n" + get_formatted_name("jimi", "hendrix"))  # одноразовий вивід значення; повернення без зберігання в змінну
 
 
 # функція з необов'язковим аргументом
@@ -175,14 +175,14 @@ def show_completed_models(completed_models):
         print(completed_model)
 
 
-"""Думка: кожна функція повинна робити свою окрему дію. Можно завжди викликати функцію в функції."""
+"""Думка: кожна функція повинна робити свою окрему дію. Можна завжди викликати функцію в функції."""
 
 unprinted_designs = ["phone case", "robot pendart", "dodecahedron"]
 completed_models = []
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
 print(unprinted_designs)  # перевіряємо список
-# виклик тих же функцій, але з копією списку unprinted_designs, щоб зберегти оригинал:
+# виклик тих же функцій, але з копією списку unprinted_designs, щоб зберегти оригінал:
 unprinted_designs = ["phone case", "robot pendart", "dodecahedron"]
 completed_models = []
 print_models(unprinted_designs[:], completed_models)  # передача копії
