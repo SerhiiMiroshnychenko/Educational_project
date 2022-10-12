@@ -5,6 +5,8 @@ def count_words(filename, file_path):
             contents = f.read()
     except FileNotFoundError:
         print(f"Sorry, there is not the file {filename} by address {file_path}.")
+    except UnicodeDecodeError:
+        print(f"Sorry, the file {filename} is not in 'utf-8' code.")
     else:
         words = contents.split()
         num_words = len(words)  # порахувати приблизну кількість слів у файлі
