@@ -32,3 +32,4 @@ def greet_user():
         print(f"We`ll remember you when you come back, {username}!")
 
 
+greet_user()
