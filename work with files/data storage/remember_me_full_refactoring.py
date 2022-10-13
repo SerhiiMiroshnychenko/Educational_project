@@ -12,3 +12,12 @@ def get_stored_username():
     else:
         return username
 
+
+def get_new_username():
+    """Запитати ім'я користувача."""
+    username = input("What is your name? ")
+    filename = 'user_name.json'
+    with open(filename, 'w') as f:
+        json.dump(username, f)
+
+
