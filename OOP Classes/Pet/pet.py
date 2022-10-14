@@ -1,6 +1,6 @@
 from prettytable import PrettyTable
 from tamagotchi import Tamagotchi
-from set_pet import set_pet_type, set_pet
+from set_pet import check_pet,
 
 print("Заведи улюбленця і доглядай його місяць.")
 
