@@ -1,8 +1,5 @@
 from tamagotchi import Tamagotchi
 
-pet_type = None
-pet = None
-
 
 def get_pet_type():
     """Повертає тип тваринки."""
@@ -20,21 +17,3 @@ def set_new_pet():
         return pet
     else:
         pass
-
-
-get_pet_type()
-set_new_pet()
-print(pet.__dict__)
-get_pet_type()
-set_new_pet()
-print(pet.__dict__)
-pet = None
-pet_type = None
-get_pet_type()
-set_new_pet()
-print(pet.__dict__)
-
-
-
-
-
