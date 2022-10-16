@@ -1,4 +1,7 @@
-def get_formatted_name_2(first, middle, last):
+def get_formatted_name_2(first, last, middle=''):
     """Згенерувати відформатоване ім'я."""
-    full_name = f"{first} {middle} {last}"
+    if middle:
+        full_name = f"{first} {middle} {last}"
+    else:
+        full_name = f"{first} {last}"
     return full_name.title()
