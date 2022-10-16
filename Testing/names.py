@@ -12,3 +12,4 @@ while True:
     formatted_name = get_formatted_name(first, last)
     print(f"\tNeatly formatted name: {formatted_name}.")
 
+print(get_formatted_name("Add", False))
