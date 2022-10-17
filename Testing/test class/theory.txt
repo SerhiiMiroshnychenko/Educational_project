@@ -1,0 +1,7 @@
+МЕТОД                       ВИКОРИСТАННЯ
+assertEqual(a, b)           Перевірити, що a == b
+assertNotEqual(a, b)        Перевірити, що a != b
+assertTrue(x)               Перевірити, що x є True
+assertFalse(x)              Перевірити, що x є False
+assertIn(item, list)        Перевірити, що item присутнє list
+assertNotIn(item, list)     Перевірити, що item відсутнє list
