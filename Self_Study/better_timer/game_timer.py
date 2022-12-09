@@ -56,9 +56,9 @@ def timer():
         time.sleep(1)
 
         if times == 0:
-            #filename = 'meow.wav'
-            #winsound.PlaySound(filename, winsound.SND_FILENAME)
-            winsound.Beep(888, 8888)
+            filename = 'meow.wav'
+            winsound.PlaySound(filename, winsound.SND_FILENAME)
+            #winsound.Beep(888, 8888)
             sec.set('00')
             mins.set('00')
             hrs.set('00')
