@@ -35,7 +35,7 @@ def bt_hi():
     expression = ''
     input_field['state'] = 'normal'
     input_field.delete(0, END)
-    input_field.insert(0, ' Hi, Beetroot Python Group!')
+    input_field.insert(0, ' Hi, Academy Python Group!')
     input_field['state'] = 'readonly'
 
 

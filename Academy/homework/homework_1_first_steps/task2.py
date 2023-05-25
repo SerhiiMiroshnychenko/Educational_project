@@ -24,13 +24,13 @@ print(None)
 print('\n\t', 1 + 1, 2 * 2, 3 ** 3, str(4) + "308", int('5') + 5, float(True) * int(False), sep='+', end='\n' * 3)
 
 # Beetroot_Academy
-print('Beetroot' + "_" + "Academy")
+print('Academy' + "_" + "Academy")
 
-# Beetroot _ Academy
-print('Beetroot', "_", "Academy")
+# Academy _ Academy
+print('Academy', "_", "Academy")
 
-# Beetroot Academy
-print("Beetroot", end=' ')
+# Academy Academy
+print("Academy", end=' ')
 print('Academy', end='\n\n')
 
 # Hello, Python! <Python is great!>

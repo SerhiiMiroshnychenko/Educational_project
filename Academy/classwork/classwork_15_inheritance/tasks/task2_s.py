@@ -39,7 +39,7 @@ class Worker(Person):
         self.experience = experience
 
 
-seva = Student('Seva', 35, 'm', 'Python', 'Beetroot')
+seva = Student('Seva', 35, 'm', 'Python', 'Academy')
 print(seva.__dict__)
 seva.birthday()
 print(seva.__dict__)

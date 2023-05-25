@@ -39,7 +39,7 @@ class Iterable:
 
 if __name__ == '__main__':
     i0 = Iterable('a', 'b', 'c', 'd', 'e', 'f')
-    i1 = Iterable('Beetroot')
+    i1 = Iterable('Academy')
     i2 = Iterable('Python', 1, 2, 3, 4, ['a', 'b', 'c', 'd', 'e'])
     examples = i0, i1, i2
 

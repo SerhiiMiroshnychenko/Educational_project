@@ -34,6 +34,6 @@ class DataBase:
 if __name__ == '__main__':
     with DataBase('Serhii', '123') as db:
         db.connection('Serhii', '123')
-        db.write('Beetroot')
+        db.write('Academy')
         print(db.data)
         print(db.connection_list)
