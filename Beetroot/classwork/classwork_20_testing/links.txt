@@ -1,0 +1,5 @@
+https://docs.python.org/3.7/library/unittest.html
+https://docs.python-guide.org/writing/tests/
+https://pymbook.readthedocs.io/en/latest/testing.html
+https://www.geeksforgeeks.org/unit-testing-python-unittest/
+https://realpython.com/python-testing/

@@ -1,0 +1,17 @@
+tuple1 = (10, 'десять', False, type(1))
+print(tuple1)
+for x in tuple1:
+    print(x)
+list1 = list(tuple1)
+list1[0] = 100
+print(list1)
+list1.remove('десять')
+print(list1)
+print(tuple(list1))
+print('Довжина списку list1:', len(list1))
+tuple2 = ('one')
+tuple3 = ('two',)
+print(type(tuple2))
+print(type(tuple3))
+tuple4 = (type(1), type('war'), type(True), type(4.8), type(type(1)))
+print(tuple4)

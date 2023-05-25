@@ -1,0 +1,44 @@
+{
+    "123456789": {
+        "city": "Beetroot",
+        "country": "Academy",
+        "first_name": "Student",
+        "last_name": "Python"
+    },
+    "505005050": {
+        "city": "Subotiv",
+        "country": "Ukraine",
+        "first_name": "Ivan",
+        "last_name": "Mazepa"
+    },
+    "777888999": {
+        "city": "Mariupol",
+        "country": "Ukraine",
+        "first_name": "Juriy",
+        "last_name": "Miroshnychenko"
+    },
+    "888888888": {
+        "city": "Kolomyja",
+        "country": "Ukraine",
+        "first_name": "Dmytro",
+        "last_name": "Jarosh"
+    },
+    "969669696": {
+        "city": "Kyiv",
+        "country": "Ukraine",
+        "first_name": "Bogdan",
+        "last_name": "Khmelnitskiy"
+    },
+    "978440000": {
+        "city": "Mariupol",
+        "country": "Ukraine",
+        "first_name": "Serhii",
+        "last_name": "Miroshnychenko"
+    },
+    "979979797": {
+        "city": "Zaporizhzha",
+        "country": "Ukraine",
+        "first_name": "Ivan",
+        "last_name": "Sirko"
+    }
+}

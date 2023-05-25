@@ -1,0 +1,7 @@
+1 is odd
+2 is even
+3 is odd
+55 is odd
+12 is even
+13 is odd
+1 is odd
