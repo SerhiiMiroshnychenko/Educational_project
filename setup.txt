@@ -1,0 +1,19 @@
+git init
+git remote add origin <URL>
+git fetch origin
+git checkout -B main origin/main
+
+або
+
+cd <існуюча-директорія>
+git init
+git remote add origin <URL>
+git pull origin main
+
+або
+
+cd <існуюча-директорія>
+git init
+git remote add origin <URL>
+git fetch origin
+git switch -c main origin/main  # або master замість main
